@@ -27,3 +27,4 @@ dfs(Node, Visited):-
     not(member(Neighbor, Visited)),
     dfs(Neighbor, [Node|Visited]).
 dfs(Node, []):- write("Done Searching from: "), write(Node), nl.
+%dfs(a,[]).
