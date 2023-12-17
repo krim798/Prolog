@@ -19,4 +19,5 @@ valid([A|B], [[C|D]|QS]) :-
 	C - A =\= B - D,     
 	valid([A|B], QS).
 
-
+% consult('4queenproblem.pl').
+    % 7   fourQueens([Q1,Q2,Q3,Q4]).
